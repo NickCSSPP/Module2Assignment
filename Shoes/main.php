@@ -3,7 +3,7 @@
    if(!isset($product_description)) {$product_description = ''; }
    if(!isset($list_price)) {$list_price = ''; }
    if(!isset($discount_percent)) {$discount_percent = ''; }
-   if(!isset($ales_tax)) {$sales_tax = ''; }
+   if(!isset($sales_tax)) {$sales_tax = ''; }
    if(!isset($local_tax)) {$local_tax = ''; }
 ?>
 <html>
