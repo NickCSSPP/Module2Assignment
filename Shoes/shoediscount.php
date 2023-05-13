@@ -29,12 +29,12 @@
 
     //validate local tax
     if ($local_tax === FALSE) {
-        $error_message .= 'Local Tax must be a valid number.<br>';
+        $error_message .= 'Local Tax must be a valid whole number.<br>';
     }
 
     //validate state tax
     if ($sales_tax === FALSE) {
-        $error_message .= 'Sales Tax must be a valid number.<br>';
+        $error_message .= 'Sales Tax must be a valid whole number.<br>';
     }
 
     if ($error_message != '') {
