@@ -14,7 +14,7 @@
 <body>
     <main>
         <h1>Shoe Discounts</h1>
-        <?php if (empty($error_message)) { ?>
+        <?php if (!empty($error_message)) { ?>
             <p class="error"><?php echo $error_message; ?></p>
         <?php }  //end if statement ?>
 
